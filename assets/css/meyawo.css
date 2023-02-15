@@ -372,6 +372,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
+ 
   line-height: 1.2;
 }
 
@@ -11295,11 +11296,13 @@ p {
 .pricing-wrapper .pricing-card-footer span {
   font-size: calc(18px + (35 - 18) * ((100vw - 300px) / (1300 - 300)));
   font-weight: 600;
+  font-weight: bold;
   opacity: .8;
 }
 
 .pricing-wrapper .pricing-card-footer span:first-child {
   position: relative;
+  font-weight: bold;
   right: -6px;
   top: -6px;
   font-size: calc(15px + (25 - 15) * ((100vw - 300px) / (1300 - 300)));
@@ -12110,7 +12113,7 @@ animation: blink .6s linear infinite alternate;
 .header .header-content .header-title .up {
   font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1300 - 300)));
   font-weight:700;
-  color:#444;
+  color:#44;
   margin-bottom: 5px;
   position: relative;
   display: block;
@@ -12238,7 +12241,7 @@ animation: blink .6s linear infinite alternate;
 
 .section .section-subtitle {
   margin-bottom: 6px;
-  font-weight: 400;
+  font-weight: 600;
   opacity: .6;
 }
 
